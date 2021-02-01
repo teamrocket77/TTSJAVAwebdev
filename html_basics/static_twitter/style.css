@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 88px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+.icon{
+    width:26px;
+    height: 26px;
+    margin: 25px;
+    z-index: 2;
+    margin-left: 55px;
+}
+.icon svg g path{
+    fill: #1DA1F2;
+}
+
+.middle {
+    display: inline-block;
+    margin-left: 60%;
+    margin-top: 37px;
+    position:absolute;
+}
+
+.home_banner{
+    margin-top:27px;
+}
+.row_icons{
+    max-height: 24px;
+    max-width: 24px;
+    display: block;
+    margin: 15px;
+}
+.row_icons svg g path{
+    fill: #1DA1F2;
+}
