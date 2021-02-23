@@ -1,0 +1,2 @@
+module JCO2 {
+}
